@@ -1,0 +1,7 @@
+Value Interface (Ethernet\d+/\d+/\d+|GigabitEthernet\d+/\d+/\d+)
+Value IP_Address_And_Mask (\d+\.\d+\.\d+\.\d+/\d+)
+Value Physical (down|up)
+Value Protocol (down|up)
+
+Start
+  ^${Interface}\s+${IP_Address_And_Mask}\s+${Physical}\s+${Protocol} -> Record

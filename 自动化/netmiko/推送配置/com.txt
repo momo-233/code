@@ -1,0 +1,2 @@
+int g0/0/2
+description descby_send_config_from_file()

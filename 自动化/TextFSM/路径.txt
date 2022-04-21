@@ -1,0 +1,2 @@
+TexfFSM模板路径:
+                C:\Users\梦梦\AppData\Roaming\Python\Python39\site-packages\ntc_templates\templates

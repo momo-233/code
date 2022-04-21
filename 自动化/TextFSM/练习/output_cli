@@ -1,0 +1,13 @@
+Interface                         IP Address/Mask      Physical   Protocol
+
+Ethernet0/0/0                     192.168.1.1/24       down       down      
+Ethernet0/0/1                     unassigned           down       down      
+GigabitEthernet0/0/0              172.16.1.1/24        down       down      
+GigabitEthernet0/0/1              172.16.1.2/16        down       down      
+GigabitEthernet0/0/2              unassigned           down       down      
+GigabitEthernet0/0/3              unassigned           down       down      
+NULL0                             unassigned           up         up(s)     
+Serial0/0/0                       unassigned           down       down      
+Serial0/0/1                       unassigned           down       down      
+Serial0/0/2                       unassigned           down       down      
+Serial0/0/3                       unassigned           down       down    

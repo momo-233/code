@@ -1,0 +1,12 @@
+Value Filldown Tru_INT (Eth-Trunk\d+)
+Value Filldown PHY (up|down|\*down)
+Value Filldown Protocol (up|down)
+Value Required Phy_INT (GigabitEthernet\d+/\d+/\d+)
+
+Start
+# 1
+  ^Eth-Trunk\d+ -> Continue.Record
+# 2
+  ^${Tru_INT}\s+${PHY}\s+${Protocol}\s
+# 3
+  ^\s+${Phy_INT}

@@ -1,0 +1,18 @@
+sysname Layer3Switch-5
+
+aaa
+
+ local-user mochine password cipher child233
+ local-user mochine privilege level 3
+ local-user mochine service-type ssh
+
+interface Vlanif1
+ ip address 192.168.11.15 255.255.255.0
+
+stelnet server enable
+
+ssh authentication-type default password
+
+user-interface vty 0 4
+ authentication-mode aaa
+ protocol inbound ssh

@@ -1,0 +1,56 @@
+[
+    {
+      "name": "Layer3Switch-1",
+      "connection": {
+         "device_type": "huawei",
+            "host": "192.168.11.11",
+            "username": "mochine",
+            "password": "child233"
+      }
+    },
+    {
+      "name": "Layer3Switch-2",
+      "connection": {
+         "device_type": "huawei",
+            "host": "192.168.11.12",
+            "username": "mochine",
+            "password": "child233"
+      }
+    },
+    {
+      "name": "Layer3Switch-3",
+      "connection": {
+         "device_type": "huawei",
+            "host": "192.168.11.13",
+            "username": "mochine",
+            "password": "child233"
+      }
+    },
+    {
+      "name": "Layer3Switch-4",
+      "connection": {
+         "device_type": "huawei",
+            "host": "192.168.11.14",
+            "username": "mochine",
+            "password": "child233"
+      }
+    },
+    {
+      "name": "Layer3Switch-5",
+      "connection": {
+         "device_type": "huawei",
+            "host": "192.168.11.15",
+            "username": "mochine",
+            "password": "child233"
+      }
+    },
+    {
+      "name": "Layer3Switch-8",
+      "connection": {
+         "device_type": "huawei",
+            "host": "192.168.11.18",
+            "username": "mochine",
+            "password": "child233"
+      }
+    }
+  ]

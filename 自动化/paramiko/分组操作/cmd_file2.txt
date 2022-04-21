@@ -1,0 +1,6 @@
+sys
+int vlan 1
+description Python_G2
+return
+save
+y
